@@ -1,13 +1,19 @@
-# Windows
+## General
+.cvs
+.htaccess
+.svn
+*.bak
+*.log
+*.swp
+
+## Windows
 Desktop.ini
 Thumbs.db
-ehthumbs.db
 
-#Mac
+## Mac
 .DS_Store
-.AppleDouble
-.LSOverride
 
-#Project
-./node_modules
-.idea
+## Development
+.sass-cache
+bower_components
+node_modules
