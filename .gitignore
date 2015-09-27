@@ -1,0 +1,13 @@
+# Windows
+Desktop.ini
+Thumbs.db
+ehthumbs.db
+
+#Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+#Project
+./node_modules
+.idea

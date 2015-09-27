@@ -1,0 +1,23 @@
+{
+  "name": "web-starter-kit",
+  "version": "1.0.0",
+  "description": "Web starter kit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsyirvo/web-starter-kit.git"
+  },
+  "author": "Gabriel Hofman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsyirvo/web-starter-kit/issues"
+  },
+  "homepage": "https://github.com/tsyirvo/web-starter-kit",
+  "devDependencies": {
+    "browser-sync": "^2.9.6",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-filter": "^3.0.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+  }
+}
