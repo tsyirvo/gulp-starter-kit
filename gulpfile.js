@@ -32,7 +32,8 @@ gulp.task('sass', function() {
     .pipe(sourcemaps.init())
     .pipe(sass(sassOptions).on('error', sass.logError))
     .pipe(sass({
-      includePaths: ['scss']
+      includePaths: ['scss'],
+      outputStyle: 'compressed'
     }))
     .pipe(sourcemaps.write())
     .pipe(autoprefixer())
